@@ -3,11 +3,7 @@ package br.com.digitalhouse;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Impressora implements Imprimivel{
-
-    private Contrato contratoLegal;
-    private Foto fotoSelfie;
-    private Documento docWord;
+public class Impressora {
 
     private List<Imprimivel> imprimiveis = new ArrayList<>();
 
